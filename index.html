@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1 style="text-align: center;">Piedra, papel o tijeras...</h1>
+    </header>
+
+<section>
+    <div class="section__selector">
+        <h2 class="section__title">Your choice</h2>
+        <img  id="img_player_Piedra" class="section__selector__img grow active" src="images/piedra.png" alt="">
+        <img  id="img_player_Papel" class="section__selector__img grow" src="images/papel.png" alt="">
+        <img  id="img_player_Tijeras" class="section__selector__img grow" src="images/tijera.png" alt="">
+        <h3 class="section__title" id="choice"></h3>
+    </div>
+    <div class="section__play">
+        <button class="section__play__btn" id="boton">Play</button>
+    </div>
+    <div class="section__CPU">
+        <h2 class="section__title">CPU has selected:</h2>
+        <img  class="section__selector__img " src="" id="img_Cpu"alt="" style="cursor: not-allowed;">
+        <h3 id="choiceCpu" style="text-transform: capitalize;" class="section__title"></h3>
+
+    </div>
+    <div class="section__result"> <h2 id="textoResultado"></h2></div>
+</section>
+<script src="js/main.js"></script>
+</body>
+</html>
